@@ -5,6 +5,7 @@ import { urlForImage } from '@/lib/image';
 import { PortableText } from '@portabletext/react';
 import { portableTextComponents } from '@/app/components/portable-text';
 import { Navigation } from '@/app/components/Navigation';
+import { PageProps } from '@/.next/types/app/layout';
 
 export const revalidate = 60;
 
@@ -38,8 +39,9 @@ const getCategoryColor = (index: number) => {
   return colors[index % colors.length];
 };
 
-export default async function BlogPost({ params }: Props) {
-  const post = await client.fetch(singleBlogQuery, { slug: params.slug });
+export default async function BlogPost({ params }: PageProps) {
+  const { slug } = await params;
+  const post = await client.fetch(singleBlogQuery, { slug: slug });
 
   if (!post) {
     return <div>Post not found</div>;
