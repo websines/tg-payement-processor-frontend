@@ -1,33 +1,33 @@
 export function Benefits() {
   const benefits = [
     {
-      title: 'Save Time',
-      description: 'Stop spending hours researching payment processors. Get instant matches tailored to your needs.',
+      title: 'Full Application Support',
+      description: 'We do not just recommend—we assist you throughout the entire application process.',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
         </svg>
       ),
       gradient: 'from-blue-500/20 to-blue-600/20',
       iconGradient: 'from-blue-500 to-blue-600',
     },
     {
-      title: 'Save Money',
-      description: 'Find processors with the best rates and lowest fees for your specific business type.',
+      title: 'Continuous Support',
+      description: 'Not approved? We keep searching and notify you when new payment solutions become available.',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
         </svg>
       ),
       gradient: 'from-purple-500/20 to-purple-600/20',
       iconGradient: 'from-purple-500 to-purple-600',
     },
     {
-      title: 'Reduce Risk',
-      description: 'Get matched with processors who specialize in your industry and understand your risks.',
+      title: 'Stay Updated',
+      description: 'Get exclusive updates about new payment solutions through our email notifications.',
       icon: (
         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
       gradient: 'from-green-500/20 to-green-600/20',
@@ -46,10 +46,10 @@ export function Benefits() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-gradient-to-br from-white via-blue-100 to-blue-400 bg-clip-text text-transparent">
-            Why Choose ProcessorMatch
+            Why Choose ProcessorMatch AI?
           </h2>
           <p className="text-lg text-gray-400">
-            Our AI-powered platform helps you find the perfect payment processor while saving time and money.
+            We're more than a matching service—we're your partner in securing payment processing.
           </p>
         </div>
 

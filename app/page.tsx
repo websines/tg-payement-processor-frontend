@@ -3,6 +3,7 @@ import { Features } from './components/Features';
 import { Benefits } from './components/Benefits';
 import { LatestBlogs } from './components/LatestBlogs';
 import { CTA } from './components/CTA';
+import { ProcessorCTA } from './components/ProcessorCTA';
 import { Navigation } from './components/Navigation';
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
       <Hero />
       <Features />
       <Benefits />
-      <LatestBlogs />
       <CTA />
+      <ProcessorCTA />
+      <LatestBlogs />
     </div>
   );
 }
