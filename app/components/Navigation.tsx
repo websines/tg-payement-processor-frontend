@@ -27,7 +27,7 @@ export function Navigation() {
               Blog
             </Link>
             <Button size="sm">
-              Get Started
+              <a href="https://t.me/processormatch_bot" target="_blank">Get Started</a>
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
