@@ -13,7 +13,7 @@ export function Hero() {
         <div className="text-center">
           {/* Main heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 [text-wrap:balance] bg-gradient-to-br from-white via-blue-100 to-blue-400 bg-clip-text text-transparent">
-            Get Matched & Approved for a Payment Processor—With Our Help!
+            Get Matched & Approved for a Payment Processor With Our Help!
           </h1>
           
           {/* Subheading */}

@@ -18,7 +18,7 @@ export function CTA() {
               Not Approved? We've Got You Covered!
             </h2>
             <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-              Getting rejected is frustrating—but we don't leave you hanging. We keep searching and notify you when new opportunities arise.
+              Getting rejected is frustrating, but we don't leave you hanging. We keep searching and notify you when new opportunities arise.
             </p>
 
             {/* Benefits list */}

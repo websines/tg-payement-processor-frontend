@@ -19,7 +19,7 @@ export function ProcessorCTA() {
                 Looking for Pre-Qualified Merchants?
               </h2>
               <p className="text-lg text-gray-400 mb-8">
-                We don't just send leads—we assist merchants with the application process, making it easier for processors to approve and onboard them.
+                We don't just send leads, we assist merchants with the application process, making it easier for processors to approve and onboard them.
               </p>
 
               {/* Benefits list */}
