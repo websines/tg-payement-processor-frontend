@@ -46,7 +46,7 @@ export function CTA() {
             {/* Action buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" >
-              <a href="https://t.me/processormatch_bot" target="_blank">
+              <a href="https://form.jotform.com/250494790580060" target="_blank">
                     Apply Now
                   </a>
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -61,7 +61,7 @@ export function Navigation() {
               Blog
             </Link>
             <Button size="sm">
-              <a href="https://t.me/processormatch_bot" target="_blank">Get Started</a>
+              <a href="https://form.jotform.com/250494790580060" target="_blank">Get Started</a>
               <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
               </svg>
@@ -81,7 +81,7 @@ export function Navigation() {
             </Link>
             <Button size="sm" className="w-full">
               <a 
-                href="https://t.me/processormatch_bot" 
+                href="https://form.jotform.com/250494790580060" 
                 target="_blank"
                 onClick={() => setIsMenuOpen(false)}
               >
